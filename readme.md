@@ -31,8 +31,18 @@
 --git->![alt text](image-10.png)
 12 _ Add this change to the staging area. (Using the command "git add . "
 // git add .
+--git->![alt text](image-11.png)
 13 _ Commit with the message "removing third.txt".
+// git commit -m "removing third.txt"
+--git->![alt text](image-12.png)
 14 _ Check out your commits using git log.
+// git log
+--git->![alt text](image-13.png)
 15 _ Change your global settings to core.pager=cat - you can read more about that here.
-16 _ Write the appropriate command to list all the global configurations for git on your machine.
-17 _ You can type git config --global to find out how to do this.
+// git config --global core.pager cat
+--git-> ![alt text](image-14.png)
+16 _ Write the appropriate command to list all the global configurations for git on your machine.You can type git config --global to find out how to do this.
+// git config --global --list
+--git->![alt text](image-15.png)
+
+
