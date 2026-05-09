@@ -1,48 +1,121 @@
-1 _ Create a folder called learn_git.
---->![alt text](image.png)
-2 _ Cd (change directory) into the learn_git folder.
---->![alt text](image-1.png)
-3 _ Create a file called third.txt.
-// touch third.txt
---->![alt text](image-2.png)
-4 _ Initialize an empty git repository.
-// git init
----git ->![alt text](image-3.png)
-5 _ Add third.txt to the staging area.
-// git add third.txt
----git ->![alt text](image-4.png)
-6 _ Commit with the message "adding third.txt".
-// git commit -m "adding third.txt"
----git ->![alt text](image-5.png)
-7 _ Check out your commit with git log.
-// git log
----git ->![alt text](image-6.png)
-8 _ Create another file called fourth.txt.
-// touch fourth.txt
----git->![alt text](image-7.png)
-9 _ Add fourth.txt to the staging area.
-// git add fourth.txt
----git ->![alt text](image-8.png)
-10 _ Commit with the message "adding fourth.txt"
-// git commit -m "adding fourth.txt"
----git ->![alt text](image-9.png)
-11 _ Remove the third.txt file.
-// git rm third.txt
---git->![alt text](image-10.png)
-12 _ Add this change to the staging area. (Using the command "git add . "
-// git add .
---git->![alt text](image-11.png)
-13 _ Commit with the message "removing third.txt".
-// git commit -m "removing third.txt"
---git->![alt text](image-12.png)
-14 _ Check out your commits using git log.
-// git log
---git->![alt text](image-13.png)
-15 _ Change your global settings to core.pager=cat - you can read more about that here.
-// git config --global core.pager cat
---git-> ![alt text](image-14.png)
-16 _ Write the appropriate command to list all the global configurations for git on your machine.You can type git config --global to find out how to do this.
-// git config --global --list
---git->![alt text](image-15.png)
+# 🚀 Git & GitHub Fundamentals Checkpoint
 
+Welcome to my Git practice repository! This project serves as a practical log of essential Git operations, demonstrating proficiency in repository initialization, staging, committing, and configuration management.
 
+---
+
+## 💻 Practice Log
+
+### 1. Repository Initialization
+> Setting up the working environment and initializing version control.
+
+**Step 1: Create a folder called `learn_git`**
+![Terminal Output](image.png)
+
+**Step 2: Navigate into the `learn_git` folder**
+![Terminal Output](image-1.png)
+
+**Step 3: Create a file called `third.txt`**
+```bash
+touch third.txt
+```
+![Terminal Output](image-2.png)
+
+**Step 4: Initialize an empty Git repository**
+```bash
+git init
+```
+![Terminal Output](image-3.png)
+
+---
+
+### 2. File Staging & Committing
+> Tracking changes and saving snapshots of the project.
+
+**Step 5: Add `third.txt` to the staging area**
+```bash
+git add third.txt
+```
+![Terminal Output](image-4.png)
+
+**Step 6: Commit the file with a descriptive message**
+```bash
+git commit -m "adding third.txt"
+```
+![Terminal Output](image-5.png)
+
+**Step 7: Verify the commit history**
+```bash
+git log
+```
+![Terminal Output](image-6.png)
+
+**Step 8: Create another file called `fourth.txt`**
+```bash
+touch fourth.txt
+```
+![Terminal Output](image-7.png)
+
+**Step 9: Add `fourth.txt` to the staging area**
+```bash
+git add fourth.txt
+```
+![Terminal Output](image-8.png)
+
+**Step 10: Commit the new file**
+```bash
+git commit -m "adding fourth.txt"
+```
+![Terminal Output](image-9.png)
+
+---
+
+### 3. Modifying & Removing Files
+> Handling file deletions and updating the repository state.
+
+**Step 11: Remove the `third.txt` file**
+```bash
+git rm third.txt
+```
+![Terminal Output](image-10.png)
+
+**Step 12: Stage all current changes**
+```bash
+git add .
+```
+![Terminal Output](image-11.png)
+
+**Step 13: Commit the removal**
+```bash
+git commit -m "removing third.txt"
+```
+![Terminal Output](image-12.png)
+
+**Step 14: Check the updated commit history**
+```bash
+git log
+```
+![Terminal Output](image-13.png)
+
+---
+
+### 4. Git Configuration
+> Customizing the global Git environment.
+
+**Step 15: Change global settings to use `cat` for paging**
+```bash
+git config --global core.pager cat
+```
+![Terminal Output](image-14.png)
+
+**Step 16: List all global configurations**
+```bash
+git config --global --list
+```
+![Terminal Output](image-15.png)
+
+---
+
+<div align="center">
+  <i>Practiced and documented by <b>Wael Kahlfi</b></i>
+</div>
